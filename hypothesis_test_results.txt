@@ -1,0 +1,5 @@
+Task 3: A/B Hypothesis Testing Results
+
+Hypothesis: Claim Frequency by Gauteng vs Western Cape
+Test: Chi-squared
+p-value: 0.6556
