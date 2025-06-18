@@ -27,3 +27,20 @@ This repository contains the code and analysis for Week 3 of the 10 Academy Arti
 - To reproduce:
   1. Clone the repository.
   2. Run `dvc pull` to retrieve the dataset from the remote storage.
+## Task 3: A/B Hypothesis Testing
+- Tested hypotheses for risk and margin differences across provinces, zip codes, and genders.
+- Metrics: Claim Frequency, Claim Severity, Margin.
+- Statistical tests: Chi-squared (Claim Frequency), Mann-Whitney U (Claim Severity, Margin).
+- Script: `hypothesis_testing.py`
+- Results: `hypothesis_test_results.txt`
+- Branch: `task-3`
+
+## Setup Instructions
+1. Clone the repository: `git clone <repo-url>`
+2. Install dependencies: `pip install pandas scipy numpy dvc`
+3. Pull dataset: `dvc pull`
+4. Run Task 3 script: `python hypothesis_testing.py`
+
+## Notes
+- Dataset: If `insurance.csv` is unavailable, the Task 3 script uses a placeholder dataset. Contact facilitators for the actual data.
+- Submission: Final submission due June 17, 2025 (check for extensions).
