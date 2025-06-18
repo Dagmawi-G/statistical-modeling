@@ -44,3 +44,11 @@ This repository contains the code and analysis for Week 3 of the 10 Academy Arti
 ## Notes
 - Dataset: If `insurance.csv` is unavailable, the Task 3 script uses a placeholder dataset. Contact facilitators for the actual data.
 - Submission: Final submission due June 17, 2025 (check for extensions).
+## Task 4: Predictive Modeling
+- Built regression models for claim severity and premium optimization.
+- Models: Linear Regression, Random Forest, XGBoost.
+- Metrics: RMSE, R-squared.
+- Feature Importance: SHAP analysis (see `shap_feature_importance.png`).
+- Script: `modeling.py`
+- Results: `modeling_results.txt`
+- Branch: `task-4`
