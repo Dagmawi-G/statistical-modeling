@@ -1,0 +1,15 @@
+Task 4: Predictive Modeling Results
+
+Model: Linear Regression
+RMSE: 0.00
+R-squared: 0.00
+
+Model: Random Forest
+RMSE: 0.00
+R-squared: -3.00
+
+Model: XGBoost
+RMSE: 0.00
+R-squared: -16220319465924324.00
+
+Feature Importance: See shap_feature_importance.png
